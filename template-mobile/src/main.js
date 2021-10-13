@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from "./router/index.js";
 // 如果里面store里面有index.js可以不写index.js 就会自动找index.js
 import store from './store'
+// 加载 dayjs 初始化配置
+import './utils/dayjs'
 // 加载全局样式
 import './styles/index.less'
 
@@ -13,6 +15,8 @@ import 'amfe-flexible'
 import Vant from 'vant'
 // 加载vant全局样式
 import 'vant/lib/index.css'
+
+
 // 注册使用vant组件库
 Vue.use(Vant)
 

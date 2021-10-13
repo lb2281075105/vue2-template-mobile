@@ -42,12 +42,12 @@ export const getUserInfo = () => {
 /**
  * 获取用户频道列表
  */
-// export const getUserChannels = () => {
-//   return request({
-//     method: 'GET',
-//     url: '/app/v1_0/user/channels'
-//   })
-// }
+export const getUserChannels = () => {
+  return request({
+    method: 'GET',
+    url: '/v1_0/user/channels'
+  })
+}
 
 /**
  * 关注用户
