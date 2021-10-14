@@ -90,6 +90,7 @@ export default {
   mounted () {},
   methods: {
     async loadChannels () {
+
       try {
         // const { data } = await getUserChannels()
         // this.channels = data.data.channels
@@ -111,7 +112,6 @@ export default {
             channels = data.data.channels
           }
         }
-
         this.channels = channels
       } catch (err) {
         this.$toast('获取频道数据失败')

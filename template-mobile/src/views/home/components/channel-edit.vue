@@ -93,7 +93,7 @@ export default {
       // 数组的 filter 方法：遍历数组，把符合条件的元素存储到新数组中并返回
       return this.allChannels.filter(channel => {
         // const channels = []
-
+        // map flatMap reduce  find filter
         // 数组的 find 方法：遍历数组，把符合条件的第1个元素返回
         return !this.myChannels.find(myChannel => {
           return myChannel.id === channel.id
